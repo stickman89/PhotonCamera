@@ -23,7 +23,7 @@ public class SensorSpecifics {
     public SpecificSettingSensor selectedSensorSpecifics = new SpecificSettingSensor();
     ArrayList<String> loadNetwork(String device) throws IOException {
         ArrayList<String> inputStr = new ArrayList<String>();
-        BufferedReader indevice = HttpLoader.readURL("https://raw.githubusercontent.com/eszdman/PhotonCamera/dev/app/specific/sensors/" + device + ".txt", 150);
+        BufferedReader indevice = HttpLoader.readURL("https://raw.githubusercontent.com/stickman89/PhotonCamera/dev/app/specific/sensors/" + device + ".txt", 150);
         String str;
         while ((str = indevice.readLine()) != null) {
             Log.d("SensorSpecifics", "read:" + str);
