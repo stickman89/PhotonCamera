@@ -30,7 +30,7 @@ public class Specific {
     }
     ArrayList<String> loadNetwork(String device) throws IOException {
         ArrayList<String> inputStr = new ArrayList<String>();
-        BufferedReader indevice = HttpLoader.readURL("https://raw.githubusercontent.com/eszdman/PhotonCamera/dev/app/specific/" + device + "_specificsettings.txt", 100);
+        BufferedReader indevice = HttpLoader.readURL("https://raw.githubusercontent.com/stickman89/PhotonCamera/dev/app/specific/" + device + "_specificsettings.txt", 100);
         String str;
         while ((str = indevice.readLine()) != null) {
             Log.d("Specific", "read:" + str);
