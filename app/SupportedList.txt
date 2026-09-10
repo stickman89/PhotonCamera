@@ -43,6 +43,7 @@ realme:rmx1931l1
 samsung:x1s
 samsung:dm3
 samsung:dm3q
+samsung:d2x
 tecno:tecno-ci8n
 motorola:sofiar
 lge:flashlm
